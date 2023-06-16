@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap'); /*font-family: 'Manrope', sans-serif; --> 28px*/
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--neutral-main-bg-color);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.advice-card {
+    background-color: var(--neutral-card-bg-color);
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 47px 47px 70px 47px;
+    position: relative;
+}
+
+.advice-card .title {
+    color: var(--contrast-color);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+.advice-card .advice {
+    font-size: 2.8rem;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.advice-card picture .divider-img {
+    max-width: 100%;
+}
+
+#generate-btn {
+    background-color: var(--contrast-color);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: none;
+    position: absolute;
+    bottom: -33px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generate-btn:hover {
+    box-shadow: 0 5px 15px var(--contrast-color);;
+}

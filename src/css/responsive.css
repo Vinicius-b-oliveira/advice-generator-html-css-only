@@ -1,0 +1,17 @@
+@media(max-width:440px) {
+
+    .advice-card .title{
+        font-size: 10px
+    }
+
+    .advice-card .advice{
+        font-size: 24px
+    }
+}
+
+@media(max-width:260px) {
+
+    .advice-card .advice{
+        font-size: 18px
+    }
+}
